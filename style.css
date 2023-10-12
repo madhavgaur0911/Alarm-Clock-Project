@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(15, 14, 14);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+#colon{
+    display: inline;
+    color: white;
+}
+
+.container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    overflow: hidden;
+    background-color: #a8a4a444;
+}
+
+.alarm-list-container {
+    max-height: 200px; 
+    overflow-y: auto; 
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.clock {
+    font-size: 24px;
+    color: white;
+    margin-top: -20px;
+}
+
+.alarm-form {
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    margin: 5px;
+    padding: 5px;
+    width: 50px;
+    font-size: 16px;
+}
+
+select, button {
+    margin: 5px;
+    padding: 5px;
+    font-size: 16px;
+    height: 32px;
+}
+
+#ampm {
+    font-size: 16px;
+}
+
+#set-alarm {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#set-alarm:hover {
+    background-color: #0056b3;
+}
+
+.alarms {
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.delete-button {
+    background-color: #ff2a00;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.delete-button:hover {
+    background-color: #d10000;
+}
