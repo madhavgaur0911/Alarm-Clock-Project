@@ -8,5 +8,4 @@ This is an Alarm Clock Application that displays the current time and allows use
 Key Features:
 1. Real-time clock display
 2. Easy alarm setting
-3. Customizable alarm sounds
-4. User-friendly interface
+3. User-friendly interface
