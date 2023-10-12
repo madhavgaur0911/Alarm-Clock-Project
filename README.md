@@ -1,6 +1,10 @@
 # Alarm-Clock-Project
 
-This is an Alarm Clock Application that displays the current time and allows users to set personalized alarms. It's a user-friendly way to stay organized and receive timely reminders. Technology used: HTML, CSS, JavaScript.
+Demo: https://madhavgaur0911.github.io/Alarm-Clock-Project/
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+About the project:
+This is an Alarm Clock Application that displays the current time and allows users to set personalized alarms. It's a user-friendly way to stay organized and receive timely reminders. Technology used: HTML, CSS, Vanilla JavaScript.
 
 Key Features:
 1. Real-time clock display
